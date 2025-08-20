@@ -1,0 +1,13 @@
+LLAVE S PRIMARIAS (PK) :
+Encargadas de asegurar que el registro de una tabla sea única, evitando
+la redundancia de datos y la dificultad del mantenimiento .
+- Ejemplo: En la tabla alumno
+" Id_ alumno "→ sirve para identifica a cada estudiante sin confusion, aunque tengan
+datos parecidos .
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+LLAVES FORANEAS (FK) : 
+Permite conectar y mantener la integridad entre diferentes tablas, evitando
+redundancia y errores en los datos .
+- Ejemplo: En una base de datos de alumnos y matrículas, el " Id_ alumno " en la tabla matriculas es una
+llave foránea que se relaciona con la tabla" alumnos".
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
