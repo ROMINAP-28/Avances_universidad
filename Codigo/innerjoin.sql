@@ -6,9 +6,6 @@ SELECT Mantenimiento_Clientes.Codigo,Mantenimiento_Clientes.celular,Mantenimient
 FROM Mantenimiento_Vehiculo
 JOIN Mantenimiento_Clientes ON Mantenimiento_Vehiculo.Idcodigo = Mantenimiento_Clientes.Codigo
 
-SELECT placa,Nombres FROM Mantenimiento_Vehiculo LEFT JOIN Mantenimiento_Clientes
+SELECT placa,Nombres,color FROM Mantenimiento_Vehiculo LEFT JOIN Mantenimiento_Clientes
 ON Mantenimiento_Vehiculo.Idcodigo = Mantenimiento_Clientes.Codigo
 
-SELECT placa,Nombres
-FROM Mantenimiento_Vehiculo
-JOIN Mantenimiento_Clientes ON Mantenimiento_Vehiculo.Idcodigo = Mantenimiento_Clientes.Codigo
